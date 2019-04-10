@@ -28,8 +28,4 @@
 @property (nonatomic, copy) RCTBubblingEventBlock onPress;
 @property (nonatomic, strong) NSString *testID;
 
-#if TARGET_OS_TV
-@property (nonatomic, assign) BOOL wasSelectedInJS;
-#endif
-
 @end
