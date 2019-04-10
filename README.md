@@ -5,6 +5,8 @@
 
 ## Why custom?
 - tvOS build was broken by default on a regular init
+- TabBarIOS for Apple TV does not allow changing the tab from JS (there is a
+  slight flicker now, which is annoying, but worth it to have this ability (IMO))
 
 ## Using this fork:
 1. `react-native init <YOUR PROJECT NAME> --version 0.57.0`
